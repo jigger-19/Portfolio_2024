@@ -1,0 +1,141 @@
+html { 
+    background: url(images/City_Background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(151, 183, 194, 0.573);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 5%;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  select,
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: rgba(216, 217, 225, 0.675);
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover{
+    background-color: #252525;
+  }
+
+  .card-secondary {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 325px;
+    height: 100px;
+    background-color: rgba(151, 183, 194, 0.573);
+    color: #ffffffd6;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5%;
+  }
+  .card-secondary h2 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .countdown-number {
+    font-size: 60px;
+  }
+  
+  .countdown-label {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+
+  .social-icons {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 50px;
+    color: #252525;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-icons i:hover {
+    color: #087af4;
+  }
+  
+  
+  
+
+
+  
+    

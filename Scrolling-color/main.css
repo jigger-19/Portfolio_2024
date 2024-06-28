@@ -1,0 +1,17 @@
+body {
+    margin: 5rem;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Coming Soon', cursive;
+    transition: background-color 0.5s ease;
+    background-color: crimson;
+  }
+  .phrase {
+    font-size: 3rem;
+    text-align: center;
+    margin: 12rem 0;
+  }
